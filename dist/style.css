@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #1a1a1a;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
+nav {
+  background-color: white;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+nav li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+h2, h1 {
+  padding: 1rem 0;
+}
+
+.shopping-cart:hover {
+  cursor: pointer;
+}
+
+.container {
+  padding: 5rem 2rem 2rem;
+  text-align: center;
+}
+
+.card {
+  width: 22rem;
+  height: 30rem;
+  display: inline-block;
+  background-color: dimgray;
+  padding-bottom: 1rem;
+  margin: 1rem;
+  overflow: hidden;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  padding: 0.4rem 0.8rem;
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  border: 2px solid #00AAB2;
+  background-color: #00AAB2;
+  border-radius: 15px;
+}
+a:hover {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.modal {
+  display: none;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(26, 26, 26, 0.7);
+  text-align: center;
+  padding: 2rem;
+}
+.modal__card {
+  margin-top: 10vh;
+  width: 40rem;
+  height: 50rem;
+}
+.modal__card p {
+  padding: 1rem 3rem;
+}
+
+.modal2 {
+  display: none;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(26, 26, 26, 0.7);
+  text-align: center;
+}
+.modal2 p {
+  padding: 1rem 3rem;
+}
+.modal2__card {
+  margin-top: 10vh;
+  width: 40rem;
+  height: 50rem;
+  padding: 2rem;
+}
